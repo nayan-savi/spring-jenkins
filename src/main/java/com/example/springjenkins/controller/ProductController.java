@@ -15,5 +15,10 @@ public class ProductController {
     public List<String> getProducts() {
         return Arrays.asList("Mobile", "Laptop", "TV");
     }
+
+    @GetMapping("/get")
+    public String get() {
+        return "Jenkin CI/CD";
+    }
 }
 
