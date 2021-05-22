@@ -16,9 +16,9 @@ public class ProductController {
         return Arrays.asList("Mobile", "Laptop", "TV");
     }
 
-    @GetMapping("/get")
+    /*@GetMapping("/get")
     public String get() {
         return "Jenkin CI/CD";
-    }
+    }*/
 }
 
